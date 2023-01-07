@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0px 0px;
     font-family: 'Work Sans';
 }
+
 /* Head Section */
 .header {
     max-width: 88%;
     text-align: right;
-    
+
 }
 
 .head-title {
 
     font-size: 60px;
-     font-weight: 700; 
+    font-weight: 700;
     padding-top: 210px;
 
 }
@@ -38,10 +39,11 @@
 
 }
 
-.head-btn:hover{
+.head-btn:hover {
     border: 2px solid black;
     background-color: gray;
 }
+
 .head {
     width: 100vw;
     height: 100vh;
@@ -53,61 +55,52 @@
 }
 
 /* My failures of previous year section*/
-ul li{
-     list-style: none;
-     padding-top: 10px;
+ul li {
+    list-style: none;
+    padding-top: 10px;
 }
 
 
- ul li:before {
+ul li:before {
     content: '\2713';
-    color:rgb(7, 212, 65);
-  } 
+    color: rgb(7, 212, 65);
+}
 
 
 
-.my-past-failures{
+.my-past-failures {
     display: flex;
     justify-content: center;
-    padding-top: 100px;  
+    padding-top: 100px;
 }
-.failures-pic{
-   padding-left: 150px;
-   
-   /* background-color: antiquewhite; */
-   
-    
-}
-/* .failures-pic-bgcolor{
-    margin-top: 250px;
-     padding-left: 150px;
-     background-color: antiquewhite; 
-     height: 450px;
-     width: 300px;
-     
-     border-radius: 50%;
 
-} */
-.failures-details{
+.failures-pic {
+    padding-left: 150px;
+}
+
+.failures-details {
 
     text-align: left;
     padding-right: 20%;
     padding-top: 200px;
     padding-left: 100px;
-    
-    
+
+
 }
-.failures-title{
+
+.failures-title {
     font-size: 50px;
 
 }
-.failures-description{
+
+.failures-description {
     margin-top: 25px;
     font-size: 16px;
     font-weight: 300;
     color: rgb(97, 95, 95);
 }
-.failures-list{
+
+.failures-list {
     margin-top: 15px;
     font-size: 16px;
     font-weight: 300;
@@ -115,97 +108,107 @@ ul li{
 }
 
 /* My plans Section */
-.my-plan-title{
+.my-plan-title {
     margin-top: 125px;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
 
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-around;
     padding-left: 50px;
     text-align: center;
 }
 
-.plan{
+.plan {
     padding: 50px 50px;
 }
-.plan-title{
+
+.plan-title {
     margin-top: 10px;
     font-size: 35px;
     font-weight: 800;
 }
-.plan-description{
+
+.plan-description {
     margin-top: 10px;
     font-size: 25px;
     font-weight: 400;
     color: rgb(97, 95, 95);
 }
+
 /* Progress Section(my own created section) */
-.progress-title{
+.progress-title {
     margin-top: 125px;
     font-size: 50px;
     font-weight: 800;
-    /* text-align: center; */
 }
 
-.progress-table{
+.progress-table {
     margin-top: 30px;
     height: 400px;
     width: 1000px;
     text-align: center;
 }
-table th{
+
+table th {
     font-size: 30px;
     font-weight: 600;
     font-family: open sans initial;
-    color:#F15B22;
+    color: #F15B22;
     background-color: bisque;
 }
-table td{
+
+table td {
     font-size: 20px;
     font-weight: 400;
     color: rgb(97, 95, 95);
 }
-.milestone{
-    /* color:white; */
+
+.milestone {
     background-color: rgb(227, 187, 187);
     font-size: 30px;
 }
-.assignment{
+
+.assignment {
     background-color: coral;
-    color:black;
+    color: black;
     font-size: 30px;
 }
-.as-date{
+
+.as-date {
     background-color: coral;
-    color:black
+    color: black
 }
+
+
 /* Positive mindset section */
 
-.pos-mindset{
-    background: linear-gradient(90deg, #F15B22 0%, rgba(240, 96, 39, 0) 100%),url(../images/watch.png);
+.pos-mindset {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(240, 96, 39, 0) 100%), url(../images/watch.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:normal;
-    height:40vh;
+    background-blend-mode: normal;
+    height: 40vh;
     margin-top: 130px;
     margin-left: 140px;
     margin-right: 120px;
-    border-radius: 7px;  
+    border-radius: 7px;
 }
-.pos-mindset-speech{
+
+.pos-mindset-speech {
     font-size: 60px;
     font-weight: 800;
     color: aliceblue;
     padding-top: 40px;
     padding-left: 40px;
-    
+
 }
 
-.mindset-btn{
+.mindset-btn {
     margin-top: 20px;
     margin-left: 40px;
     padding: 20px 30px;
@@ -218,61 +221,66 @@ table td{
     font-weight: 550;
 
 }
-.mindset-btn:hover{
-        border: 2px solid black;
-        background-color: bisque;
+
+.mindset-btn:hover {
+    border: 2px solid black;
+    background-color: bisque;
 
 }
+
 /* footer section */
-footer{
+footer {
     background-color: black;
     color: aliceblue;
     margin-top: 100px;
 
 }
-.future-subscribe{
+
+.future-subscribe {
     display: flex;
     justify-content: space-around;
     padding-left: 100px;
     padding-top: 130px;
     padding-bottom: 130px;
-    
+
 }
 
-.future-title{
+.future-title {
     font-size: 50px;
     font-weight: 800;
 }
-.future-description{
+
+.future-description {
     margin-top: 20px;
     font-size: 15px;
     font-weight: 100;
-    
+
 }
 
-.app-list{
+.app-list {
     display: flex;
     gap: 10px;
-   
+
 }
 
-.subscribe-title{
+.subscribe-title {
     font-size: 30px;
     font-weight: 800;
 }
-.subscribe-email{
-    margin-top:20px;
+
+.subscribe-email {
+    margin-top: 20px;
     color: white;
     background-color: black;
-    width:300px;
+    width: 300px;
     height: 50px;
     font-size: 20px;
     border: 2px solid white;
     border-radius: 5px;
 }
-.subscribe-btn{
+
+.subscribe-btn {
     margin-top: 15px;
-    /* margin-left: 40px; */
     padding: 20px 30px;
     border-radius: 5px;
     border: none;
@@ -283,7 +291,8 @@ footer{
     font-weight: 550;
 
 }
-.subscribe-btn:hover{
-        border: 2px solid orangered;
-        background-color: bisque;
+
+.subscribe-btn:hover {
+    border: 2px solid orangered;
+    background-color: bisque;
 }
